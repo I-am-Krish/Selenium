@@ -200,6 +200,4 @@ This will execute all the test cases defined in the `TestCases` class.
 - [I-am-Krish](https://github.com/I-am-Krish)
 - [Siddhar100](https://github.com/Siddhar100)
 
-```
-Happy Testing with Selenium! 🚀
-```
+## Happy Testing with Selenium! 🚀
