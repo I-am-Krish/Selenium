@@ -53,13 +53,13 @@ public class TestCases {
 	}
 	@Test
 	public void testCase5() throws InterruptedException {
-		driver.findElement(By.xpath("//input[@id='input-payment-firstname']")).sendKeys("Siddhartha");
-		driver.findElement(By.xpath("//input[@id='input-payment-lastname']")).sendKeys("Chakaraborty");
-		driver.findElement(By.xpath("//input[@id='input-payment-email']")).sendKeys("sid@gmail.com");
+		driver.findElement(By.xpath("//input[@id='input-payment-firstname']")).sendKeys("Krishnashis");
+		driver.findElement(By.xpath("//input[@id='input-payment-lastname']")).sendKeys("Das");
+		driver.findElement(By.xpath("//input[@id='input-payment-email']")).sendKeys("krish@gmail.com");
 		driver.findElement(By.xpath("//input[@id='input-payment-telephone']")).sendKeys("123456789");
-		driver.findElement(By.xpath("//input[@id='input-payment-address-1']")).sendKeys("Kolaghat");
-		driver.findElement(By.xpath("//input[@id='input-payment-city']")).sendKeys("Kolaghat");
-		driver.findElement(By.xpath("//input[@id='input-payment-postcode']")).sendKeys("721212");
+		driver.findElement(By.xpath("//input[@id='input-payment-address-1']")).sendKeys("Kolkata");
+		driver.findElement(By.xpath("//input[@id='input-payment-city']")).sendKeys("Kolkata");
+		driver.findElement(By.xpath("//input[@id='input-payment-postcode']")).sendKeys("000000");
 		Select country = new Select(driver.findElement(By.xpath("//select[@id='input-payment-country']")));
 		country.selectByIndex(3);
 		Thread.sleep(3000);
