@@ -194,12 +194,12 @@ mvn test
 
 This will execute all the test cases defined in the `TestCases` class.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 ### Contributors
 
 - [I-am-Krish](https://github.com/I-am-Krish)
 - [Siddhar100](https://github.com/Siddhar100)
 
+```
+Happy Testing with Selenium! 🚀
+```
